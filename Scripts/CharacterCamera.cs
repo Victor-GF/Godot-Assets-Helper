@@ -3,7 +3,7 @@ using System;
 
 public class CharacterCamera : Spatial
 {
-  [Export(PropertyHint.Range, "0.01, 1.0")]
+  [Export(PropertyHint.Range, ".01, 1.0, .01")]
   public float CameraSensitivity = .1f;
   [Export]
   public Vector2 LimitAxis = new Vector2(-85, 85);
