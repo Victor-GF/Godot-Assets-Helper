@@ -57,25 +57,24 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 1.5, 0 )
 material = SubResource( 4 )
 
 [node name="CSGBox3" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 1, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 1.5, 0.5 )
 width = 10.0
-height = 1.0
 depth = 1.0
 material = SubResource( 3 )
 
 [node name="CSGBox14" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.1, 1.5, 5.5 )
-depth = 10.0
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.1, 1.5, 8 )
+depth = 14.0
 material = SubResource( 1 )
 
 [node name="CSGBox4" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.4, 2.5, 14 )
-width = 10.4
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.9, 2.5, 14 )
+width = 8.0
 height = 4.0
 material = SubResource( 4 )
 
 [node name="CSGPolygon" type="CSGPolygon" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.14688, 0.5, 15 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.50312, 0.5, 15 )
 polygon = PoolVector2Array( -1.4, 0, -1.4, 4, 1.6, 1.7, 3.9, 0 )
 depth = 2.0
 material = SubResource( 4 )
@@ -130,7 +129,7 @@ depth = 4.0
 material = SubResource( 6 )
 
 [node name="CSGBox8" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.7, 2.5, 13 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.95, 2.5, 13 )
 width = 4.0
 height = 4.0
 depth = 4.0
@@ -148,9 +147,17 @@ depth = 4.0
 material = SubResource( 5 )
 
 [node name="CSGBox12" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1.5, 8 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 1, 11 )
+height = 1.0
 depth = 4.0
 material = SubResource( 3 )
+
+[node name="CSGBox16" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 2, 9.5 )
+width = 1.0
+height = 1.0
+depth = 1.0
+material = SubResource( 6 )
 
 [node name="CSGSphere" type="CSGSphere" parent="CSGCombiner"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, 3, -13 )
